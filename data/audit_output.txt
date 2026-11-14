@@ -1,0 +1,19 @@
+rows=297
+Counter full_name: {'OLD HICKORY BLVD': 15, 'MURFREESBORO PIKE': 11, 'GALLATIN PIKE': 10, 'BELL RD': 9, 'NOLENSVILLE PIKE': 8, 'DICKERSON PIKE': 8, 'LEBANON PIKE': 8, 'HARDING PL': 6, '8TH AVE S': 6, 'ROSA L PARKS BLVD': 4} distinct=175
+Counter Category: {'Low': 188, 'Medium': 93, 'High': 16} distinct=3
+Counter hin_59_per: {'1': 297} distinct=1
+Counter median_cla: {'4': 201, '6': 57, '5': 39} distinct=3
+median_cap: blank=0 zero=19 min=0.0 max=2207.0
+median_lan: blank=0 zero=0 min=1.0 max=6.0
+local_road: blank=0 zero=0 min=2.5 max=485.0
+length_mil: blank=0 zero=0 min=0.25 max=1.48877406
+Alta_weighted_index: blank=0 zero=0 min=103.41030915 max=1097.14516665
+frequency: blank=0 zero=0 min=2.0 max=478.0
+sum_ksi_cr: blank=0 zero=47 min=0.0 max=45.0
+length_mi: blank=0 zero=0 min=0.0335015 max=1.48877406
+Sentinel rule: no blank/null values exist in the pulled layer, so no record is excluded from any denominator on a sentinel basis. sum_ksi_cr == 0 is a recorded count (47 segments), NOT an unknown sentinel: those segments stay in every denominator. Polarity sample EXCLUDED: none (no sentinel exclusions). Polarity sample INCLUDED with zero KSI: [('11', 'OLD HICKORY BLVD', '0'), ('14', 'E THOMPSON LN', '0'), ('21', '14TH AVE N', '0')]
+length_mi vs length_mil (Normalized Length): totals differ - length_mi sum 226.27, length_mil sum 228.98; all rates in the brief use length_mi (alias 'Length (mi)'); length_mil is reported once for transparency and never used as a denominator.
+Unit agreement: KSI per mile = KSI crashes (count) / segment length in miles, same segment population; shares = segment-group KSI crashes / total KSI crashes (1,955) or group crashes / group frequency, counts printed with every rate.
+hin_59_per: all 297 rows = 1 (alias 'Road is on the HIN'); Category tiers Low 188 / Medium 93 / High 16 sum to 297.
+GlobalID distinct: 297 of 297; OBJECTID distinct: 297
+Join hygiene (fusion): street-name-matched (not proximity, not segment) join to the 2026-11-02 crash layer: 222,279 of 222,902 known-count crashes carry a Street_Address (99.7% match-eligible; 623 missing, 0.3%, below the 5% flag threshold); 172 of 175 HIN street names matched at least one crash; unmatched names: OLD HICKORY BLVD RAMP, REP JOHN LEWIS WAY N, REV KELLY M SMITH WAY (name-form differences, disclosed). Internal control: name-matched crashes 109,443 vs the HIN layer's own recorded frequency total 29,530 - name matching is an upper bound and is never printed as on-network presence. Physical scale: network = 297 segments / 226.3 miles (length_mi) across 175 named streets.

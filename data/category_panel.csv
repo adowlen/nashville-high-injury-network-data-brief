@@ -1,0 +1,4 @@
+category,segments,length_mi,length_share_pct,frequency,ksi,ksi_share_of_total_pct,ksi_per_mi,ksi_share_of_cat_crashes_pct
+High,16,13.8,6.1,4373,372,19.03,26.96,8.51
+Low,188,141.91,62.72,13067,852,43.58,6.0,6.52
+Medium,93,70.56,31.19,12090,731,37.39,10.36,6.05

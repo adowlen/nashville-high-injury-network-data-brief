@@ -1,0 +1,108 @@
+{
+  "checks": 17,
+  "passed": 17,
+  "detail": [
+    {
+      "check": "rows",
+      "expected": 297,
+      "got": 297,
+      "pass": true
+    },
+    {
+      "check": "distinct streets",
+      "expected": 175,
+      "got": 175,
+      "pass": true
+    },
+    {
+      "check": "total frequency",
+      "expected": 29530,
+      "got": 29530,
+      "pass": true
+    },
+    {
+      "check": "total ksi",
+      "expected": 1955,
+      "got": 1955,
+      "pass": true
+    },
+    {
+      "check": "total length rounds",
+      "expected": 226.27,
+      "got": 226.27,
+      "pass": true
+    },
+    {
+      "check": "High segments",
+      "expected": 16,
+      "got": 16,
+      "pass": true
+    },
+    {
+      "check": "High ksi",
+      "expected": 372,
+      "got": 372,
+      "pass": true
+    },
+    {
+      "check": "High freq",
+      "expected": 4373,
+      "got": 4373,
+      "pass": true
+    },
+    {
+      "check": "Medium segments",
+      "expected": 93,
+      "got": 93,
+      "pass": true
+    },
+    {
+      "check": "Medium ksi",
+      "expected": 731,
+      "got": 731,
+      "pass": true
+    },
+    {
+      "check": "Medium freq",
+      "expected": 12090,
+      "got": 12090,
+      "pass": true
+    },
+    {
+      "check": "Low segments",
+      "expected": 188,
+      "got": 188,
+      "pass": true
+    },
+    {
+      "check": "Low ksi",
+      "expected": 852,
+      "got": 852,
+      "pass": true
+    },
+    {
+      "check": "Low freq",
+      "expected": 13067,
+      "got": 13067,
+      "pass": true
+    },
+    {
+      "check": "zero ksi segments",
+      "expected": 47,
+      "got": 47,
+      "pass": true
+    },
+    {
+      "check": "top street Gallatin ksi",
+      "expected": 173,
+      "got": 173,
+      "pass": true
+    },
+    {
+      "check": "top street Murfreesboro ksi",
+      "expected": 165,
+      "got": 165,
+      "pass": true
+    }
+  ]
+}

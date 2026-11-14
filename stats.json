@@ -1,0 +1,356 @@
+{
+  "dataset": "Nashville Vision Zero High Injury Network (Vision_Zero_High_Injury_Network_view, layer 0)",
+  "snapshot_date": "2026-11-14",
+  "rows": 297,
+  "server_count": 297,
+  "unit": "one row = one road segment in the published High Injury Network view",
+  "distinct_streets": 175,
+  "total_length_mi": 226.27,
+  "total_length_mil_normalized": 228.98,
+  "total_frequency_crashes": 29530,
+  "total_ksi_crashes": 1955,
+  "ksi_share_of_network_crashes_pct": 6.62,
+  "ksi_per_mi_overall": 8.64,
+  "hin_flag_counter": {
+    "1": 297
+  },
+  "category_counter": {
+    "Low": 188,
+    "Medium": 93,
+    "High": 16
+  },
+  "by_category": {
+    "High": {
+      "segments": 16,
+      "length_mi": 13.8,
+      "length_share_pct": 6.1,
+      "frequency": 4373,
+      "ksi": 372,
+      "ksi_share_of_total_pct": 19.03,
+      "ksi_per_mi": 26.96,
+      "ksi_share_of_cat_crashes_pct": 8.51
+    },
+    "Low": {
+      "segments": 188,
+      "length_mi": 141.91,
+      "length_share_pct": 62.72,
+      "frequency": 13067,
+      "ksi": 852,
+      "ksi_share_of_total_pct": 43.58,
+      "ksi_per_mi": 6.0,
+      "ksi_share_of_cat_crashes_pct": 6.52
+    },
+    "Medium": {
+      "segments": 93,
+      "length_mi": 70.56,
+      "length_share_pct": 31.19,
+      "frequency": 12090,
+      "ksi": 731,
+      "ksi_share_of_total_pct": 37.39,
+      "ksi_per_mi": 10.36,
+      "ksi_share_of_cat_crashes_pct": 6.05
+    }
+  },
+  "top_streets_by_ksi": [
+    {
+      "full_name": "GALLATIN PIKE",
+      "segments": 10,
+      "length_mi": 8.19181491,
+      "frequency": 1838,
+      "ksi": 173,
+      "ksi_per_mi": 21.12,
+      "ksi_share_pct": 9.41
+    },
+    {
+      "full_name": "MURFREESBORO PIKE",
+      "segments": 11,
+      "length_mi": 10.5480053,
+      "frequency": 2600,
+      "ksi": 165,
+      "ksi_per_mi": 15.64,
+      "ksi_share_pct": 6.35
+    },
+    {
+      "full_name": "OLD HICKORY BLVD",
+      "segments": 15,
+      "length_mi": 13.11954236,
+      "frequency": 2079,
+      "ksi": 156,
+      "ksi_per_mi": 11.89,
+      "ksi_share_pct": 7.5
+    },
+    {
+      "full_name": "NOLENSVILLE PIKE",
+      "segments": 8,
+      "length_mi": 7.759781,
+      "frequency": 1882,
+      "ksi": 110,
+      "ksi_per_mi": 14.18,
+      "ksi_share_pct": 5.84
+    },
+    {
+      "full_name": "BELL RD",
+      "segments": 9,
+      "length_mi": 8.782461810000001,
+      "frequency": 1353,
+      "ksi": 95,
+      "ksi_per_mi": 10.82,
+      "ksi_share_pct": 7.02
+    },
+    {
+      "full_name": "DICKERSON PIKE",
+      "segments": 8,
+      "length_mi": 7.6952914,
+      "frequency": 1156,
+      "ksi": 88,
+      "ksi_per_mi": 11.44,
+      "ksi_share_pct": 7.61
+    },
+    {
+      "full_name": "LEBANON PIKE",
+      "segments": 8,
+      "length_mi": 7.66719794,
+      "frequency": 937,
+      "ksi": 78,
+      "ksi_per_mi": 10.17,
+      "ksi_share_pct": 8.32
+    },
+    {
+      "full_name": "HARDING PL",
+      "segments": 6,
+      "length_mi": 5.7791198,
+      "frequency": 1258,
+      "ksi": 59,
+      "ksi_per_mi": 10.21,
+      "ksi_share_pct": 4.69
+    },
+    {
+      "full_name": "W TRINITY LN",
+      "segments": 3,
+      "length_mi": 3.02968122,
+      "frequency": 460,
+      "ksi": 49,
+      "ksi_per_mi": 16.17,
+      "ksi_share_pct": 10.65
+    },
+    {
+      "full_name": "DONELSON PIKE",
+      "segments": 2,
+      "length_mi": 2.1606275,
+      "frequency": 388,
+      "ksi": 39,
+      "ksi_per_mi": 18.05,
+      "ksi_share_pct": 10.05
+    }
+  ],
+  "top_streets_by_ksi_per_mi_min1mi": [
+    {
+      "full_name": "LAFAYETTE ST",
+      "segments": 1,
+      "length_mi": 1.41493139,
+      "frequency": 266,
+      "ksi": 37,
+      "ksi_per_mi": 26.15,
+      "ksi_share_pct": 13.91
+    },
+    {
+      "full_name": "GALLATIN PIKE",
+      "segments": 10,
+      "length_mi": 8.19181491,
+      "frequency": 1838,
+      "ksi": 173,
+      "ksi_per_mi": 21.12,
+      "ksi_share_pct": 9.41
+    },
+    {
+      "full_name": "DONELSON PIKE",
+      "segments": 2,
+      "length_mi": 2.1606275,
+      "frequency": 388,
+      "ksi": 39,
+      "ksi_per_mi": 18.05,
+      "ksi_share_pct": 10.05
+    },
+    {
+      "full_name": "ROBINSON RD",
+      "segments": 2,
+      "length_mi": 1.6050085100000002,
+      "frequency": 156,
+      "ksi": 28,
+      "ksi_per_mi": 17.45,
+      "ksi_share_pct": 17.95
+    },
+    {
+      "full_name": "W TRINITY LN",
+      "segments": 3,
+      "length_mi": 3.02968122,
+      "frequency": 460,
+      "ksi": 49,
+      "ksi_per_mi": 16.17,
+      "ksi_share_pct": 10.65
+    },
+    {
+      "full_name": "MURFREESBORO PIKE",
+      "segments": 11,
+      "length_mi": 10.5480053,
+      "frequency": 2600,
+      "ksi": 165,
+      "ksi_per_mi": 15.64,
+      "ksi_share_pct": 6.35
+    },
+    {
+      "full_name": "STATE RT 45",
+      "segments": 2,
+      "length_mi": 2.06007898,
+      "frequency": 303,
+      "ksi": 32,
+      "ksi_per_mi": 15.53,
+      "ksi_share_pct": 10.56
+    },
+    {
+      "full_name": "NOLENSVILLE PIKE",
+      "segments": 8,
+      "length_mi": 7.759781,
+      "frequency": 1882,
+      "ksi": 110,
+      "ksi_per_mi": 14.18,
+      "ksi_share_pct": 5.84
+    },
+    {
+      "full_name": "NEELYS BEND RD",
+      "segments": 1,
+      "length_mi": 1.00267587,
+      "frequency": 104,
+      "ksi": 13,
+      "ksi_per_mi": 12.97,
+      "ksi_share_pct": 12.5
+    },
+    {
+      "full_name": "BROADWAY",
+      "segments": 2,
+      "length_mi": 1.7030162999999998,
+      "frequency": 421,
+      "ksi": 22,
+      "ksi_per_mi": 12.92,
+      "ksi_share_pct": 5.23
+    }
+  ],
+  "top_segments_by_ksi": [
+    {
+      "full_name": "GALLATIN PIKE",
+      "category": "High",
+      "length_mi": 0.901,
+      "frequency": 328,
+      "ksi": 45,
+      "ksi_per_mi": 49.95
+    },
+    {
+      "full_name": "GALLATIN PIKE",
+      "category": "High",
+      "length_mi": 0.901,
+      "frequency": 302,
+      "ksi": 44,
+      "ksi_per_mi": 48.84
+    },
+    {
+      "full_name": "LAFAYETTE ST",
+      "category": "High",
+      "length_mi": 1.415,
+      "frequency": 266,
+      "ksi": 37,
+      "ksi_per_mi": 26.15
+    },
+    {
+      "full_name": "W TRINITY LN",
+      "category": "High",
+      "length_mi": 1.01,
+      "frequency": 367,
+      "ksi": 35,
+      "ksi_per_mi": 34.66
+    },
+    {
+      "full_name": "MURFREESBORO PIKE",
+      "category": "High",
+      "length_mi": 0.948,
+      "frequency": 463,
+      "ksi": 28,
+      "ksi_per_mi": 29.54
+    },
+    {
+      "full_name": "DONELSON PIKE",
+      "category": "Medium",
+      "length_mi": 1.08,
+      "frequency": 326,
+      "ksi": 27,
+      "ksi_per_mi": 24.99
+    },
+    {
+      "full_name": "BELL RD",
+      "category": "Medium",
+      "length_mi": 0.976,
+      "frequency": 478,
+      "ksi": 26,
+      "ksi_per_mi": 26.64
+    },
+    {
+      "full_name": "STATE RT 45",
+      "category": "High",
+      "length_mi": 1.03,
+      "frequency": 243,
+      "ksi": 26,
+      "ksi_per_mi": 25.24
+    },
+    {
+      "full_name": "NOLENSVILLE PIKE",
+      "category": "High",
+      "length_mi": 0.97,
+      "frequency": 382,
+      "ksi": 26,
+      "ksi_per_mi": 26.8
+    },
+    {
+      "full_name": "NOLENSVILLE PIKE",
+      "category": "High",
+      "length_mi": 0.97,
+      "frequency": 274,
+      "ksi": 23,
+      "ksi_per_mi": 23.71
+    }
+  ],
+  "concentration": {
+    "top10_segments_ksi": 317,
+    "top10_segments_ksi_share_pct": 16.21,
+    "top30_segments_ksi": 661,
+    "top30_segments_ksi_share_pct": 33.81,
+    "top30_segments_length_share_pct": 13.17,
+    "zero_ksi_segments": 47
+  },
+  "human_scale_derived": {
+    "ksi_per_mile": "8.6 recorded KSI crashes per network mile (1,955 / 226.3 miles, derived)",
+    "high_tier": "about 1 in 5 recorded KSI crashes in the network sits on the 16 High-tier segments (372 of 1,955, derived)"
+  },
+  "fusion_crash_layer": {
+    "method": "street-name match only: a reported crash counts as name-matched when either side of its Street_Address, after house-number stripping and PKE->PIKE / AV->AVE expansion, equals a HIN full_name. This is NOT a segment or proximity join: HIN segments are specific stretches of those streets, so the name match is an upper bound on segment-level presence and is never printed as on-network crashes.",
+    "crash_layer_rows_known_counts": 222902,
+    "addr_present": 222279,
+    "addr_missing": 623,
+    "name_matched_crashes": 109443,
+    "name_matched_share_pct": 49.24,
+    "crash_layer_ksi_crashes_addr_present": 68289,
+    "name_matched_ksi": 35884,
+    "name_matched_ksi_share_pct": 52.55,
+    "ksi_rate_name_matched_pct": 32.79,
+    "ksi_rate_not_matched_pct": 28.72,
+    "name_matched_fatalities": 535,
+    "crash_layer_fatalities_addr_present": 922,
+    "hin_street_names": 175,
+    "hin_street_names_matched": 172,
+    "hin_street_names_unmatched": [
+      "OLD HICKORY BLVD RAMP",
+      "REP JOHN LEWIS WAY N",
+      "REV KELLY M SMITH WAY"
+    ],
+    "control_note": "Internal control: the same name-match run on the crash layer returns 109,443 name-matched crashes against the HIN layer own recorded frequency total of 29,530 - the gap is the expected signature of whole-street name matching vs segment-level accounting, and is why no name-matched figure is printed as an on-network figure.",
+    "measure_note": "Crash-layer measure in this fusion is injury-or-fatal crashes (Number_of_Injuries>0 or Number_of_Fatalities>0), NOT the HIN layer's KSI measure: the crash layer carries injury counts with no severity split, so its figures are never labeled KSI and never compared as the same measure as sum_ksi_cr."
+  }
+}
